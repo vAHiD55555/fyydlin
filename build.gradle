@@ -36,3 +36,10 @@ dependencies {
     testRuntime "org.junit.jupiter:junit-jupiter-engine:$junit_version"
     testImplementation "com.github.tomakehurst:wiremock:$wiremock_version"
 }
+dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url 'https://jitpack.io' }
+		}
+}
