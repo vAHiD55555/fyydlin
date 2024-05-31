@@ -43,3 +43,6 @@ dependencyResolutionManagement {
 			maven { url 'https://jitpack.io' }
 		}
 }
+dependencies {
+	        implementation 'com.github.mfietz:fyydlin:Tag'
+}
